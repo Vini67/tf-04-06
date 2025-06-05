@@ -31,7 +31,7 @@ Copiar
   "data_hora_coleta": "2025-06-03T14:30:00Z",
   "data_hora_entrega": "2025-06-04T16:00:00Z"
 }
-. Escolha da Escalabilidade
+3. Escolha da Escalabilidade
 Escalabilidade Horizontal foi escolhida pois:
 
 Permite distribuir a carga entre vários servidores, melhorando desempenho e disponibilidade.
@@ -40,7 +40,7 @@ Proporciona maior resiliência a falhas, pois se um servidor cair, os demais con
 
 É ideal para sistemas com alta demanda e grande volume de dados, como um sistema de entregas em tempo real.
 
-. Consulta e Otimização
+4. Consulta e Otimização
 Consulta para buscar entregas “em trânsito” para um cliente específico (MongoDB):
 js
 Copiar
